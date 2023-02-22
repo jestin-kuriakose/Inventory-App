@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  background-color: #f4f5f7;
+}
+
+.form-container {
+  background-color: #f4f5f7;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.form {
+  background-color: #fff;
+  height: 100%;
+  width: 30%;
+  padding: 25px;
+  border: 0 solid #f6f6f6;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #0f1035;
+  gap: 10px;
+  box-shadow: rgb(223 225 230) 0px 1px 0px
+}
+
+form h5 {
+  font-size: 32px;
+}
+.form-input {
+  padding: 15px;
+  font-size: 1.2rem;
+  width: 93%;
+  margin: 0;
+}
+
+.form-button {
+  padding: 15px;
+  margin: 0;
+  font-size: 1.2rem;
+  background-color: #1944d9;
+  color: #f4f5f7;
+  border: none;
+  cursor: pointer;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border-radius: 5px;
+  width: 100%;
+}
+.form-button:hover {
+  background-color: #0c2686;
+}
